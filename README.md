@@ -4,32 +4,23 @@
 ### Passo a passo
 Clone Repositório
 ```sh
-git clone https://github.com/wribeiiro/curso-laravel-9.git laravel9
+git clone https://github.com/wribeiiro/curso-laravel-9.git
 ```
 
 ```sh
-cd laravel9/
+cd curso-laravel-9/
 ```
-
-
-Alterne para a branch laravel 8.x
-```sh
-git checkout laravel-9-com-php-8
-```
-
 
 Remova o versionamento
 ```sh
 rm -rf .git/
 ```
 
-
 Crie o Arquivo .env
 ```sh
 cd example-project/
 cp .env.example .env
 ```
-
 
 Atualize as variáveis de ambiente do arquivo .env
 ```dosini
@@ -74,7 +65,5 @@ Gerar a key do projeto Laravel
 ```sh
 php artisan key:generate
 ```
-
-
 Acesse o projeto
 [http://localhost:8989](http://localhost:8989)
